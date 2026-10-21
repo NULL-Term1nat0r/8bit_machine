@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>latch_curcuit.dig</elementName>
+      <elementAttributes/>
+      <pos x="220" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>latch_curcuit.dig</elementName>
+      <elementAttributes/>
+      <pos x="400" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Data</string>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="300" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="60"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="380" y="80"/>
+      <p2 x="400" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="20"/>
+      <p2 x="220" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="40"/>
+      <p2 x="400" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="60"/>
+      <p2 x="180" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="60"/>
+      <p2 x="540" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="60"/>
+      <p2 x="220" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="140"/>
+      <p2 x="300" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="140"/>
+      <p2 x="380" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="60"/>
+      <p2 x="180" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="80"/>
+      <p2 x="380" y="140"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

@@ -77,6 +77,10 @@
           <boolean>true</boolean>
         </entry>
         <entry>
+          <string>Label</string>
+          <string>out</string>
+        </entry>
+        <entry>
           <string>intFormat</string>
           <intFormat>dec</intFormat>
         </entry>
